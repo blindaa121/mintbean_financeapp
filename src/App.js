@@ -1,18 +1,23 @@
-import React from 'react';
+import React, { useState, useContext } from 'react';
+import { GlobalContextProvider } from './components/context/GlobalState'
 import './App.css';
 import DashBoardHeader from './components/DashboardHeader/DashboardHeader';
 import Dashboard from './components/Dashboard/Dashboard';
 import Sidebar from './components/Sidebar/Sidebar';
+import ExpenseForm from './components/ExpenseForm/ExpenseForm';
 
 function App() {
+
   return (
-    <div className="app__container">
+    <GlobalContextProvider>
+      <div className="app__container">
         <Sidebar />
       <div className='sidebar__dashboard'>
-        <DashBoardHeader />
         <Dashboard />
       </div>
     </div>
+    </GlobalContextProvider>
+    
   );
 }
 

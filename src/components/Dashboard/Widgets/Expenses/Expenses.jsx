@@ -1,10 +1,13 @@
 import React from 'react';
 import "../../Dashboard.css";
+import './Expenses.css'
 
 const Expenses = () => {
     return (
         <div className='expenses_container dashboard__widget'>
-            <h1>Expenses</h1>
+            <div className="expenses__header">
+                <span>Expenses</span>
+            </div>
         </div>
     )
 }

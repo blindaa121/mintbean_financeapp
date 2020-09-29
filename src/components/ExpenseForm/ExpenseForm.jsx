@@ -22,7 +22,7 @@ const ExpenseForm = () => {
 
                 <input 
                     type="text"
-                    onChnage={(e) => setDescriptionInput(e.target.value)}/>
+                    onChange={(e) => setDescriptionInput(e.target.value)}/>
                 {/* Input - Description of expense  */}
                 {/* Dropdown of the expense category */}
                 {/* Date */}

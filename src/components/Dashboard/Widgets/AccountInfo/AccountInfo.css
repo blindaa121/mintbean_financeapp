@@ -1,0 +1,20 @@
+.accountinfo__header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(37,54,122);
+    background: linear-gradient(90deg, rgba(37,54,122,1) 0%, rgba(103,87,255,1) 50%, rgba(194,255,237,1) 100%);
+    height: 50px;
+}
+
+.accountinfo__header > span {
+    font-size: 20px;
+    color: white;
+    letter-spacing: 2.5px;
+}
+
+.accountitem__row {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}

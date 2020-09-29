@@ -1,0 +1,15 @@
+.expenses__header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background: rgb(58,93,180);
+background: linear-gradient(90deg, rgba(58,93,180,1) 0%, rgba(29,169,253,1) 50%, rgba(64,150,111,1) 100%);
+}
+
+.expenses__header > span {
+    font-size: 20px;
+    color: white;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+}

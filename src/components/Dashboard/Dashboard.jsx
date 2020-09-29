@@ -8,14 +8,18 @@ import './Dashboard.css'
 const Dashboard = () => {
     return (
         <div className='dashboard__container'>
-            <h1>Dashboard goes here</h1>
-            {/* Overview */}
+            <h1>It's easy as 1, 2, 3..</h1>
             <div className="dashboard__widgets__container">
                 <AccountInfo />
                 <Category />
                 <Expenses />
             </div>
             <Reports />
+            <Reports />
+            <Reports />
+            <Reports />
+            <Reports />
+            
         </div>
     )
 }

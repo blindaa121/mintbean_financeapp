@@ -1,10 +1,13 @@
 import React from 'react';
+import './Reports.css'
 import "../../Dashboard.css";
 
 const Reports = () => {
     return (
-        <div className='reports_container'>
-            <h1>Reports</h1>
+        <div className='reports__container'>
+            <div className="reports__header">
+                <span>Reports</span>
+            </div>
         </div>
     )
 }
